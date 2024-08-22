@@ -122,3 +122,22 @@ nav ul li a {
     width: 20px;
     margin-top: 15px;
 }
+
+@media screen and (max-width: 770px) {
+    .logo {
+        width: 180px;
+    }
+    #sideNav {
+        width: 150px;
+    }
+    .banner-text h1 {
+        font-size: 54px;
+    }
+    .banner-text p {
+        font-size: 15px;
+    }
+    .banner-btn a {
+        display: block;
+        margin: 20px auto;
+    }
+}
