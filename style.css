@@ -294,6 +294,7 @@ nav ul li a {
     height: 100%;
     position: absolute;
     top: 0;
+
     border-radius: 10px;
     cursor: pointer;
     background: linear-gradient(rgba(0, 0, 0, 0.5), #a5c7b5);
@@ -302,5 +303,37 @@ nav ul li a {
 }
 
 .single-service:hover .overlay {
+    opacity: 1;
+}
+
+.service-desc {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transition: 1s;
+    transform: translateX(-50%);
+}
+
+hr {
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}
+
+.service-desc p {
+    font-size: 14px;
+}
+
+.service-desc h3 {
+    font-size: 48px;
+    font-family: "Great Vibes", cursive;
+}
+
+.single-service:hover .service-desc {
+    bottom: 30%;
     opacity: 1;
 }
