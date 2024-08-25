@@ -270,6 +270,7 @@ nav ul li a {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: auto;
+    margin-top: 20px;
 }
 
 .single-service {
@@ -334,6 +335,35 @@ hr {
 }
 
 .single-service:hover .service-desc {
-    bottom: 30%;
+    bottom: 20%;
     opacity: 1;
+}
+
+@media screen and (max-width: 770px) {
+    .single-service {
+        flex-basis: 100%;
+        margin: 30px;
+    }
+    .service-desc p {
+        font-size: 12px;
+    }
+    hr {
+        margin: 5px auto;
+    }
+    .single-service:hover .service-desc {
+        bottom: 10% !important;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .single-service {
+        flex-basis: 100%;
+        margin: 30px;
+    }
+    .service-desc h3 {
+        font-size: 12px;
+    }
+    .service-desc p {
+        font-size: 6px;
+    }
 }
