@@ -203,6 +203,7 @@ nav ul li a {
 .aboutMe-img img {
     width: 80%;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .aboutMe h2 {
@@ -254,3 +255,5 @@ nav ul li a {
         padding-bottom: 20px;
     }
 }
+
+/* Services section */
