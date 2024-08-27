@@ -356,6 +356,9 @@ hr {
 }
 
 @media screen and (max-width: 460px) {
+    .service-box {
+        width: 100%;
+    }
     .single-service {
         flex-basis: 100%;
         margin: 30px auto;
