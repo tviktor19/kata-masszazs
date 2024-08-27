@@ -355,7 +355,7 @@ hr {
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 460px) {
     .single-service {
         flex-basis: 100%;
         margin: 30px;
