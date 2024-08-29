@@ -3,6 +3,14 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Kata Masszázsstúdió Aszófő - Szakértői masszázs, köpölyözés, kinezio tape és nyirokmasszázs szolgáltatások."
+        />
+        <meta
+            name="keywords"
+            content="masszázs, köpölyözés, kinezio tape, nyirokmasszázs, Aszófő"
+        />
         <title>Kata Masszázs</title>
         <link rel="stylesheet" href="style.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,163 +28,174 @@
         />
     </head>
     <body>
-        <section id="banner">
-            <img class="logo" src="images/logo.png" alt="logo" />
-            <div class="banner-text">
-                <h1>Kata masszázs</h1>
-                <p>Szabadulj meg a stressztől, engedd el a feszültséget.</p>
-                <div class="banner-btn">
-                    <a href="#aboutMe"><span></span>Bemutatkozás</a>
-                    <a href="tel: +36301234567"><span></span>Bejelentkezés</a>
+        <header>
+            <section id="banner">
+                <img class="logo" src="images/logo.png" alt="logo" />
+                <div class="banner-text">
+                    <h1>Kata masszázs</h1>
+                    <p>Szabadulj meg a stressztől, engedd el a feszültséget.</p>
+                    <div class="banner-btn">
+                        <a href="#aboutMe"><span></span>Bemutatkozás</a>
+                        <a href="tel: +36301234567"
+                            ><span></span>Bejelentkezés</a
+                        >
+                    </div>
                 </div>
+            </section>
+            <div id="sideNav">
+                <nav>
+                    <ul>
+                        <li><a href="#">Főoldal</a></li>
+                        <li><a href="#aboutMe">Bemutatkozás</a></li>
+                        <li><a href="#services">Szolgáltatások</a></li>
+                        <li><a href="#prices">Árak</a></li>
+                        <li><a href="#connect">Kapcsolat</a></li>
+                    </ul>
+                </nav>
             </div>
-        </section>
-        <div id="sideNav">
-            <nav>
-                <ul>
-                    <li><a href="#">Főoldal</a></li>
-                    <li><a href="#aboutMe">Bemutatkozás</a></li>
-                    <li><a href="#services">Szolgáltatások</a></li>
-                    <li><a href="#prices">Árak</a></li>
-                    <li><a href="#connect">Kapcsolat</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div id="menuBtn">
-            <img id="menu" src="images/menu.png" alt="" />
-        </div>
-
-        <!-- About me -->
-
-        <section id="aboutMe">
-            <div class="title-text">
-                <h2>Bemutatkozás</h2>
+            <div id="menuBtn">
+                <img id="menu" src="images/menu.png" alt="" />
             </div>
-            <div class="aboutMe-box">
-                <div class="aboutMe animated">
-                    <h2>Tóth Kata</h2>
-                    <div class="aboutMe-desc">
-                        <div class="aboutMe-icon">
-                            <i class="fa fa-spa"></i>
+        </header>
+
+        <main>
+            <!-- About me -->
+
+            <section id="aboutMe">
+                <div class="title-text">
+                    <h2>Bemutatkozás</h2>
+                </div>
+                <div class="aboutMe-box">
+                    <div class="aboutMe animated">
+                        <h2>Tóth Kata</h2>
+                        <div class="aboutMe-desc">
+                            <div class="aboutMe-icon">
+                                <i class="fa fa-spa"></i>
+                            </div>
+                            <div class="aboutMe-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Consectetur nemo minima
+                                    eos dignissimos fugit harum laboriosam in
+                                    quis suscipit. Temporibus enim eius
+                                    obcaecati, porro in consequuntur accusamus
+                                    odio maiores! Deserunt. Lorem ipsum dolor
+                                    sit amet consectetur adipisicing elit.
+                                    Consectetur nemo minima eos dignissimos
+                                    fugit harum laboriosam in quis suscipit.
+                                    Temporibus enim eius obcaecati, porro in
+                                    consequuntur accusamus odio maiores!
+                                    Deserunt.
+                                </p>
+                            </div>
                         </div>
-                        <div class="aboutMe-text">
+                    </div>
+                    <div class="aboutMe-img animated">
+                        <img src="images/kata.jpeg" alt="kata" />
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services -->
+            <section id="services">
+                <div class="title-text">
+                    <h2>Szolgáltatások</h2>
+                </div>
+                <div class="service-box">
+                    <div class="single-service animated">
+                        <h3>Masszázs</h3>
+                        <img src="images/masszazs.jpg" alt="masszazs" />
+                        <div class="overlay"></div>
+                        <div class="service-desc">
+                            <!-- <h3>Masszázs</h3>
+                            <hr /> -->
                             <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Consectetur nemo minima eos
-                                dignissimos fugit harum laboriosam in quis
-                                suscipit. Temporibus enim eius obcaecati, porro
-                                in consequuntur accusamus odio maiores!
-                                Deserunt. Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Consectetur nemo minima eos
-                                dignissimos fugit harum laboriosam in quis
-                                suscipit. Temporibus enim eius obcaecati, porro
-                                in consequuntur accusamus odio maiores!
-                                Deserunt.
+                                A masszázs egy ősi terápia, amelynek célja a
+                                test és a lélek felfrissítése. Különféle
+                                technikákat alkalmazva segít a stressz
+                                oldásában, az izmok ellazításában és a
+                                vérkeringés javításában. A masszázs során a bőr,
+                                az izmok és a kötőszövetek stimulálása révén
+                                fokozódik a szervezet öngyógyító képessége, így
+                                támogatva az általános egészségi állapotot és a
+                                közérzet javulását.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-service animated">
+                        <h3>Köpölyözés</h3>
+                        <img src="images/kopoly.jpg" alt="masszazs" />
+                        <div class="overlay"></div>
+                        <div class="service-desc">
+                            <!-- <h3>Köpölyözés</h3>
+                            <hr /> -->
+                            <p>
+                                A köpölyözés egy tradicionális gyógyászati
+                                eljárás, amely során speciális üvegből,
+                                szilikonból vagy bambuszból készült csészéket
+                                helyeznek a bőrre, hogy vákuumot hozzanak létre.
+                                A vákuum hatására a bőr és a kötőszövetek enyhén
+                                megemelkednek, fokozva ezzel a vér- és
+                                nyirokkeringést. Ez a technika segít a
+                                méreganyagok eltávolításában, az izmok
+                                ellazításában, valamint a fájdalom és a
+                                gyulladás csökkentésében.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-service animated">
+                        <h3>Kinezio tapasz</h3>
+                        <img src="images/kinesio.jpeg" alt="masszazs" />
+                        <div class="overlay"></div>
+                        <div class="service-desc">
+                            <!-- <h3>Kinezio tapasz</h3>
+                            <hr /> -->
+                            <p>
+                                A kineziológiai tapasz, más néven kineziotape,
+                                egy rugalmas, bőrbarát ragasztószalag, amelyet
+                                az izmok, ízületek és ínszalagok támogatására
+                                használnak. Alkalmazásával segít stabilizálni a
+                                sérült területeket anélkül, hogy korlátozná a
+                                mozgást, miközben serkenti a vér- és
+                                nyirokkeringést. A tapasz csökkentheti a
+                                fájdalmat, elősegítheti a gyógyulást, és
+                                támogatja az izom- és ízületműködést, így
+                                gyakran használják sportolók és rehabilitációs
+                                kezelések során.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-service animated">
+                        <h3>Nyirokmasszázs</h3>
+                        <img src="images/nyirok.jpg" alt="masszazs" />
+                        <div class="overlay"></div>
+                        <div class="service-desc">
+                            <!-- <h3>Nyirokmasszázs</h3>
+                            <hr /> -->
+                            <p>
+                                A nyirokmasszázs, más néven nyirokdrenázs, egy
+                                speciális masszázstechnika, amely a
+                                nyirokrendszer működésének serkentésére irányul.
+                                Gyengéd, ritmikus mozdulatokkal segíti a
+                                nyirokfolyadék áramlását, ezáltal támogatva a
+                                méreganyagok eltávolítását és a szervezet
+                                immunrendszerének erősítését. A nyirokmasszázs
+                                hatékony lehet a szervezet általános
+                                regenerációjában.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="aboutMe-img animated">
-                    <img src="images/kata.jpeg" alt="kata" />
+            </section>
+            <section id="prices">
+                <div class="title-text">
+                    <h2>Árlista</h2>
                 </div>
-            </div>
-        </section>
-
-        <!-- Services -->
-        <section id="services">
-            <div class="title-text">
-                <h2>Szolgáltatások</h2>
-            </div>
-            <div class="service-box">
-                <div class="single-service animated">
-                    <h3>Masszázs</h3>
-                    <img src="images/masszazs.jpg" alt="masszazs" />
-                    <div class="overlay"></div>
-                    <div class="service-desc">
-                        <!-- <h3>Masszázs</h3>
-                        <hr /> -->
-                        <p>
-                            A masszázs egy ősi terápia, amelynek célja a test és
-                            a lélek felfrissítése. Különféle technikákat
-                            alkalmazva segít a stressz oldásában, az izmok
-                            ellazításában és a vérkeringés javításában. A
-                            masszázs során a bőr, az izmok és a kötőszövetek
-                            stimulálása révén fokozódik a szervezet öngyógyító
-                            képessége, így támogatva az általános egészségi
-                            állapotot és a közérzet javulását.
-                        </p>
-                    </div>
+                <div class="image-box">
+                    <img src="images/arlista.jpeg" alt="" />
                 </div>
-                <div class="single-service animated">
-                    <h3>Köpölyözés</h3>
-                    <img src="images/kopoly.jpg" alt="masszazs" />
-                    <div class="overlay"></div>
-                    <div class="service-desc">
-                        <!-- <h3>Köpölyözés</h3>
-                        <hr /> -->
-                        <p>
-                            A köpölyözés egy tradicionális gyógyászati eljárás,
-                            amely során speciális üvegből, szilikonból vagy
-                            bambuszból készült csészéket helyeznek a bőrre, hogy
-                            vákuumot hozzanak létre. A vákuum hatására a bőr és
-                            a kötőszövetek enyhén megemelkednek, fokozva ezzel a
-                            vér- és nyirokkeringést. Ez a technika segít a
-                            méreganyagok eltávolításában, az izmok
-                            ellazításában, valamint a fájdalom és a gyulladás
-                            csökkentésében.
-                        </p>
-                    </div>
-                </div>
-                <div class="single-service animated">
-                    <h3>Kinezio tapasz</h3>
-                    <img src="images/kinesio.jpeg" alt="masszazs" />
-                    <div class="overlay"></div>
-                    <div class="service-desc">
-                        <!-- <h3>Kinezio tapasz</h3>
-                        <hr /> -->
-                        <p>
-                            A kineziológiai tapasz, más néven kineziotape, egy
-                            rugalmas, bőrbarát ragasztószalag, amelyet az izmok,
-                            ízületek és ínszalagok támogatására használnak.
-                            Alkalmazásával segít stabilizálni a sérült
-                            területeket anélkül, hogy korlátozná a mozgást,
-                            miközben serkenti a vér- és nyirokkeringést. A
-                            tapasz csökkentheti a fájdalmat, elősegítheti a
-                            gyógyulást, és támogatja az izom- és ízületműködést,
-                            így gyakran használják sportolók és rehabilitációs
-                            kezelések során.
-                        </p>
-                    </div>
-                </div>
-                <div class="single-service animated">
-                    <h3>Nyirokmasszázs</h3>
-                    <img src="images/nyirok.jpg" alt="masszazs" />
-                    <div class="overlay"></div>
-                    <div class="service-desc">
-                        <!-- <h3>Nyirokmasszázs</h3>
-                        <hr /> -->
-                        <p>
-                            A nyirokmasszázs, más néven nyirokdrenázs, egy
-                            speciális masszázstechnika, amely a nyirokrendszer
-                            működésének serkentésére irányul. Gyengéd, ritmikus
-                            mozdulatokkal segíti a nyirokfolyadék áramlását,
-                            ezáltal támogatva a méreganyagok eltávolítását és a
-                            szervezet immunrendszerének erősítését. A
-                            nyirokmasszázs hatékony lehet a szervezet általános
-                            regenerációjában.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="prices">
-            <div class="title-text">
-                <h2>Árlista</h2>
-            </div>
-            <div class="image-box">
-                <img src="images/arlista.jpeg" alt="" />
-            </div>
-        </section>
+            </section>
+        </main>
 
         <footer id="connect" class="animated">
             <img class="footer-img" src="images/logo1.png" alt="" />
