@@ -381,3 +381,19 @@ hr {
         margin-top: 8px;
     }
 }
+
+#prices {
+    width: 100%;
+    padding: 80px 0;
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+}
+
+.image-box img {
+    width: 50%;
+    margin: auto;
+    /* transform: translateY(-100px); */
+}
