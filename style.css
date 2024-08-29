@@ -80,7 +80,7 @@
 }
 
 #sideNav {
-    width: 250px;
+    width: 200px;
     height: 100vh;
     position: fixed;
     right: -250px;
@@ -464,19 +464,52 @@ hr {
     margin: 12px;
 }
 
+iframe {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 .footer-img {
     max-width: 370px;
     opacity: 0.3;
     position: absolute;
     left: 50%;
-    top: 65%;
+    top: 60%;
     transform: translate(-50%, -50%);
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links .fa-brands {
+    height: 40px;
+    width: 40px;
+    color: #a5c7b5;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #a5c7b5;
+    margin: 40px 5px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.social-links .fa-brands:hover {
+    background-color: #a5c7b5;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.social-links p {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #a5c7b5;
 }
 
 @media screen and (max-width: 770px) {
     #connect .foglalas {
         font-size: 24px;
     }
+
     .footer-left,
     .footer-right {
         flex-basis: 100%;
