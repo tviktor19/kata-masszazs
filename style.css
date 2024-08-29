@@ -270,16 +270,23 @@ nav ul li a {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: auto;
-    margin-top: 20px;
+    margin: 20px auto;
 }
 
 .single-service {
     flex-basis: 48%;
     text-align: center;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     color: #fff;
     position: relative;
+}
+
+.single-service h3 {
+    color: #a5c7b5;
+    font-size: 48px;
+    font-family: "Great Vibes", cursive;
+    margin: 20px 0 10px;
 }
 
 .single-service img {
@@ -294,8 +301,7 @@ nav ul li a {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0;
-
+    top: 90px;
     border-radius: 10px;
     cursor: pointer;
     background: linear-gradient(rgba(0, 0, 0, 0.5), #a5c7b5);
@@ -342,7 +348,6 @@ hr {
 @media screen and (max-width: 770px) {
     .single-service {
         flex-basis: 100%;
-        margin: 30px;
     }
     .service-desc p {
         font-size: 12px;
@@ -361,13 +366,19 @@ hr {
     }
     .single-service {
         flex-basis: 100%;
-        margin: 30px 10px;
+        /* margin: 30px 10px; */
+        margin-left: 10px;
+        margin-right: 10px;
     }
-    .service-desc h3 {
-        font-size: 14px;
+    .single-service h3 {
+        font-size: 24px;
     }
     .service-desc p {
         font-size: 10px;
+    }
+
+    .overlay {
+        top: 60px;
     }
 
     #menuBtn {
@@ -382,6 +393,8 @@ hr {
     }
 }
 
+/* Prices section */
+
 #prices {
     width: 100%;
     padding: 80px 0;
@@ -395,5 +408,9 @@ hr {
 .image-box img {
     width: 50%;
     margin: auto;
-    /* transform: translateY(-100px); */
+}
+
+.image-box img::before {
+    content: "";
+    background: url(https://www.vhv.rs/dpng/d/416-4166049_holy-week-palm-leaves-png-download-palm-sunday.png);
 }
