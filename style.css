@@ -378,7 +378,7 @@ hr {
     }
 
     .overlay {
-        top: 60px;
+        top: 61px;
     }
 
     #menuBtn {
@@ -471,4 +471,21 @@ hr {
     left: 50%;
     top: 65%;
     transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 770px) {
+    #connect .foglalas {
+        font-size: 24px;
+    }
+    .footer-left,
+    .footer-right {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .footer-img {
+        display: none;
+    }
+    iframe {
+        width: 90%;
+    }
 }
