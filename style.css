@@ -398,6 +398,7 @@ hr {
 #prices {
     width: 100%;
     padding: 80px 0;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.1), #a5c7b5); */
 }
 
 .image-box {
@@ -413,4 +414,61 @@ hr {
 .image-box img::before {
     content: "";
     background: url(https://www.vhv.rs/dpng/d/416-4166049_holy-week-palm-leaves-png-download-palm-sunday.png);
+}
+
+/* Footer section */
+
+#connect {
+    padding: 100px 0 20px;
+    background: #efefef;
+    position: relative;
+}
+
+#connect .foglalas {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.footer-row {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left,
+.footer-right {
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-row h3 {
+    margin: 10px 0;
+}
+
+.footer-row p {
+    line-height: 35px;
+}
+
+.footer-left .fa,
+.footer-right .fa {
+    font-size: 20px;
+    color: #a5c7b5;
+    margin: 12px;
+}
+
+.footer-img {
+    max-width: 370px;
+    opacity: 0.3;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
 }
